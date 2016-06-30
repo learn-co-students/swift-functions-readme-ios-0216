@@ -28,10 +28,20 @@ func sayHelloToCat(catName: String) {
     print("Hello, \(catName), why do you sleep so much?")
 }
 
-sayHelloToCat("Mittens")
+func sayhelloToJim(helloFrom: String) {
+    print("Hello Jim this is \(helloFrom)!")
+}
 
-let catFriend = "Socks"
-sayHelloToCat(catFriend)
+sayhelloToJim(helloFrom: "Adrian")
+
+
+
+sayHelloToCat(catName: "DOG")
+
+let catFriend = "Swift"
+sayHelloToCat(catName: catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+sayHelloToCat(catName: "animal")
+
+
